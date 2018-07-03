@@ -1,0 +1,74 @@
+/* Overall format + hot dog cursor styling*/
+
+body {
+  background-color: white;
+  font-family: 'american typewriter' !important;
+  padding-left: 1em;
+  padding-right: 1em;
+  position: relative;
+  bottom: 40px;
+  cursor: url('../img/hotdogwithmustardandketchup_vw0_icon.ico'), default;
+}
+
+/* rounded corners of images */
+img {
+border-radius: 25px;
+}
+
+/* "I ❤️ hot dogs" */
+h1 {
+  font-size: 100px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* pronunciation & definition */
+h2 {
+  font-size: 75px;
+  text-align: center;
+}
+
+/* remaining headers */
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+
+p {
+  color: #515A5A;
+  font-size: 20px;
+  text-align:left;
+  padding-bottom: 40px;
+}
+
+footer {
+text-align: center;
+font-size: 15px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+/* Pronunciation button styling */
+.sound {
+  color: #515A5A;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Container outlines */
+.dotted-box-1 {
+  border: 5px dotted black;
+}
+
+.dotted-box {
+  padding: 30px;
+  border: 5px dotted black;
+  margin-bottom: 40px;
+}
