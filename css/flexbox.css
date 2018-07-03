@@ -1,0 +1,61 @@
+/* =================================
+  Flexbox
+==================================== */
+
+/* What is a hot dog */
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	height: 400px;
+  justify-content: space-around;
+	padding-top: 40px;
+
+}
+
+/* .row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+
+Create four equal columns that sit next to each other 
+.column {
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+} */
+
+/* What I think about hot dogs */
+.container-1 {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	height: 750px;
+  justify-content: space-between; /* or space-around */
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* or space-around */
+}
+
+
+/* What are hot dogs made of */
+.container-2 {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	height: 300px;
+  justify-content: space-around;
+}
+
+/* Is a hot dog a sandwich */
+.container-3 {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	height: 450px;
+  justify-content: space-around;
+}
