@@ -1,52 +1,40 @@
+/* Overall format + hot dog cursor styling*/
+
 body {
   background-color: white;
   font-family: 'american typewriter' !important;
-  /*font-family: american typewriter, serif;*/
   padding-left: 1em;
   padding-right: 1em;
   position: relative;
-  bottom: 60px;
+  bottom: 40px;
   cursor: url('../img/hotdogwithmustardandketchup_vw0_icon.ico'), default;
 }
 
-button {
-  background-color: white;
-}
-
-/*
-figure {
-  width: 30%;
-  text-align: center;
-  font-style: italic;
-  font-size: smaller;
-  text-indent: 0;
-  border: none;
-  position: relative;
-  bottom: 60px;
-}
-
-figcaption {
-  caption-side: top;
-  position: relative;
-  bottom: 60px;
-}
-*/
-
-
-.sound {
-  color: #515A5A;
-  font-size: 20px;
-  text-align: center;
-}
-
-footer {
-text-align: center;
-font-size: 15px;
-}
-
+/* rounded corners of images */
 img {
 border-radius: 25px;
 }
+
+/* "I ❤️ hot dogs" */
+h1 {
+  font-size: 100px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* pronunciation & definition */
+h2 {
+  font-size: 75px;
+  text-align: center;
+}
+
+/* remaining headers */
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
 
 p {
   color: #515A5A;
@@ -55,29 +43,32 @@ p {
   padding-bottom: 40px;
 }
 
-h1 {
-  font-size: 100px;
-  text-align: center;
-  margin-top: 100px;
-  font-weight: bold;
+footer {
+text-align: center;
+font-size: 15px;
 }
 
-h2 {
-  font-size: 75px;
-  text-align: center;
-  font-weight: bold;
-
-
-}
-h3 {
-  font-size: 30px;
-  text-align: center;
-  font-weight: bold;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
 }
 
+/* Pronunciation button styling */
+.sound {
+  color: #515A5A;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Container outlines */
+.dotted-box-1 {
+  border: 5px dotted black;
+}
 
 .dotted-box {
   padding: 30px;
-  border: 3px dotted black;
+  border: 5px dotted black;
   margin-bottom: 40px;
 }
