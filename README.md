@@ -1,6 +1,7 @@
 **CodeLou_FrontEnd**
 This project is a fun site about my love of hot dogs! It also includes pronounciation, definition and ingredients of hot dogs.
 This site works best in Chrome or Safari
+Link directly to the site at: https://snc1010.github.io/
 
 **Custom CSS Classes**
 The classes I created are:
